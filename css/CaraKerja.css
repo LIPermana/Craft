@@ -1,0 +1,54 @@
+.carakerja-wrapper{
+  color: #3C4058;
+  padding-left: 135px;
+  padding-right: 135px;
+}
+
+.carakerja-wrapper>p{
+  margin-top: 100px;
+  margin-bottom: 70px;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+
+.carakerja-list{
+  display: flex;
+  justify-content: center;
+}
+
+.carakerja-col{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carakerja-img{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 30px;
+}
+
+.carakerja-img div{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.carakerja-img img{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.carakerja-nomor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 37px;
+  height: 37px;
+  margin-bottom: 20px;
+  border-radius: 50px;
+  background-color: #6AAED4;
+}

@@ -1,0 +1,301 @@
+@media (min-width: 320px) and (max-width: 767px){
+  /* ========== header ========== */
+  header{
+    padding: 10px 20px ;
+  }
+
+  .logo p{
+    font-size: 14px;
+  }
+
+  header ul li a{
+    display: none;
+  }
+
+  .right-navbar{
+    display: none;
+  }
+
+  .collapse{
+    display: block;
+  }
+
+  #sidebarCollapse{
+    display: block;
+  }
+
+  /* ============ Title ========= */
+  main{
+    padding-top: 10px;
+  }
+
+  .title{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .title h1{
+    font-size: 25px;
+  }
+
+  .title p{
+    font-size: 14px;
+  }
+
+  .title .btn-outline{
+    margin-left: 2px;
+    margin-top: 10px;
+  }
+
+  /* ======== Cara Kerja =========== */
+  .carakerja-wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .carakerja-wrapper>p{
+    font-size: 20px;
+  }
+
+  .carakerja-list{
+    display: block;
+  }
+
+  /* ======== deskripsi ======== */
+  .deskripsi-col-1{
+    margin: 20px;
+  }
+
+  .deskripsi-col-2{
+    margin: 35px;
+  }
+
+  .deskripsi-up{
+    font-size: 20px;
+  }
+
+  .deskripsi-down{
+    font-size: 16px;
+  }
+
+  .invets-img{
+    display: none;
+  }
+
+  .deskripsi-wrapper img{
+    display: none;
+  }
+
+  /* ========== customer ======= */
+  .customer-wrapper{
+    display: none;
+  }
+
+  /* ========= newsletter ======= */
+  .newsletter-wrapper{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .newsletter-title{
+    font-size: 20px;
+  }
+
+  .newsletter-deskripsi{
+    font-size: 16px;
+  }
+
+  .newsletter-wrapper .flex{
+    display: inline-block;
+    text-align:center;
+  }
+
+  .newsletter-input{
+    width: 250px;
+    height: 30px;
+    margin: 0;
+  }
+
+  .newsletter-button{
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  /* ====== About =========  */
+  .about-wrapper{
+    margin-left:20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .logo-about{
+    display: none;
+  }
+
+  /* ========= footer ======= */
+  .footer-content{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 110px;
+  }
+
+  .socialmedia img{
+    margin-bottom: 5px;
+  }
+}
+
+@media (min-width: 425px) and (max-width:426px){
+  .socialmedia img{
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+}
+
+
+@media (min-width:768px) and (max-width:1024px) {
+  /* ========== header ========== */
+  header{
+    padding: 10px 40px ;
+  }
+
+  header ul li a{
+    display: none;
+  }
+
+  .right-navbar{
+    display: none;
+  }
+
+  .collapse{
+    display: block;
+  }
+
+  #sidebarCollapse{
+    display: block;
+  }
+
+  /* ============ Title ========= */
+  main{
+    padding-top: 50px;
+  }
+
+  .title{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* ========= Cara Kerja ========== */
+  .carakerja-wrapper{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .carakerja-img img{
+    max-width: 100px;
+    left: 16%;
+  }
+
+  .carakerja-col{
+    max-width: 150px;
+  }
+
+  /* ========== deskripsi =========*/
+  .deskripsi-col-2{
+    margin-left: 0px;
+    padding-right: 20px;
+  }
+
+  .deskripsi-col-1{
+    margin-left: 40px;
+  }
+
+  .deskripsi-wrapper img{
+    max-width: 300px;
+    max-height: 220px;
+  }
+
+  /* ========== costumer =========== */
+  .slide-wrapper{
+    width: 600px;
+    height: 300px;
+  }
+
+  .slide-thougth{
+    font-size: 20px;
+  }
+
+  .slide-row col{
+    flex-grow: 0 !important;
+  }
+
+  /* ======= about ========== */
+  .about-wrapper{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .logo-about{
+    display: none;
+  }
+
+  /* ========== footer ========== */
+  .footer-content{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+ }
+
+@media (min-width:1024px) and (max-width: 1280px) {
+  /* ========== header ========== */
+  header{
+    padding: 10px 70px ;
+  }
+
+  header ul li a{
+    margin: auto 10px;
+  }
+
+  .right-navbar img{
+    margin: auto 10px;
+  }
+
+  .right-navbar div{
+    margin-left: 10px;
+  }
+
+  /* ========= Title ========== */
+  .title{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  /* ========== Cara Kerja =========== */
+  .carakerja-wrapper{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  /* ========= Deskripsi =========== */
+  .deskripsi-col-2{
+    margin-left: 20px;
+  }
+
+  .deskripsi-col-1{
+    margin-right: 20px;
+    margin-left: 70px;
+  }
+
+  .deskripsi-wrapper img{
+    max-width: 500px;
+    max-height: 367px;
+  }
+
+  /* ========== About ========= */
+  .about-wrapper{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

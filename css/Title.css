@@ -1,0 +1,36 @@
+.title{
+  display: flex;
+  color: #fff;
+  height: 672px;
+  align-items: center;
+  padding-left: 135px;
+  padding-right: 135px;
+  background-image: url('../assets/backgroundTitle.png');
+}
+
+.title h1{
+  margin-bottom: 30px;
+  letter-spacing: 0.05em;
+}
+
+.title p{
+  color: #D6D6D6;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 70px;
+  letter-spacing: 0.05em;
+}
+
+.title .btn{
+  width: 220px;
+  height: 60px;
+  font-size: 18px;
+  line-height: 45px;
+  border-radius: 6px;
+}
+
+.title .btn-outline{
+  color: #fff;
+  margin: auto 15px;
+  border: 1px solid #fff;
+}
